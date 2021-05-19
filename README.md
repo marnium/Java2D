@@ -2,12 +2,11 @@
 
 Usando la **API 2D** de Java para mostrar las siguientes ***figuras***:
 
->  - Traslación
->  - Escalamiento
->  - Rotación
->  - Relleno
->  - Degradado
->  - Relleno con imagen
+>  - Triángulo
+>  - Rectángulo
+>  - Pentágono
+>  - Círculo
+>  - Texto con relleno
 
 Aplicando a cada figura las siguientes ***transformaciones*** y ***efectos de diseño***:
 
