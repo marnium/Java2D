@@ -26,7 +26,7 @@ public class Escalation extends Transformation {
         jpnOpciones.add(jtfFacEscY);
         javax.swing.JButton jbtEscalation = new javax.swing.JButton("Escalar");
         jbtEscalation.addActionListener((java.awt.event.ActionEvent e) -> {
-            if (jtfFacEscX.getText().equals("") || jtfFacEscY.getText().equals("")) {
+            if (jtfFacEscX.getText().isEmpty() || jtfFacEscY.getText().isEmpty()) {
                 JOptionPane.showMessageDialog(Escalation.this, "Especifique la escala",
                         "Mensaje", JOptionPane.INFORMATION_MESSAGE);
             } else {

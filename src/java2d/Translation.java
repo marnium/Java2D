@@ -29,7 +29,7 @@ public class Translation extends Transformation {
       jpnOpciones.add(new javax.swing.JLabel(">, "));
       javax.swing.JButton jbtTrasladar = new javax.swing.JButton("Trasladar");
       jbtTrasladar.addActionListener((java.awt.event.ActionEvent e) -> {
-          if (jtfX.getText().equals("") || jtfY.getText().equals(""))
+          if (jtfX.getText().isEmpty() || jtfY.getText().isEmpty())
               JOptionPane.showMessageDialog(Translation.this, "Especifique el vector de traslación",
                       "Mensaje", JOptionPane.INFORMATION_MESSAGE);
           else {
